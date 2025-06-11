@@ -3,6 +3,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 from driver_path import driver_path # Create a driver_path.py file with the path to your ChromeDriver or which driver you are using ...
+import time,random
 
 def scrape_the_link(website):
     options = Options()
