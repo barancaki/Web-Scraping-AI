@@ -2,9 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
+from driver_path import driver_path
 
 def scrape_the_link(website):
-    driver_path = ""
     options = Options()
     options.add_argument('--headless')
     options.add_argument('--disable-gpu')
